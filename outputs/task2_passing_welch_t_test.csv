@@ -1,0 +1,2 @@
+group_1,group_2,mean_difference_group_1_minus_group_2,t_statistic,degrees_of_freedom,p_value_two_sided,alpha,conclusion
+Midfielder,Defender,-1.1400000000000006,-1.1715800890934223,93.93203993081583,0.24432889123874788,0.05,Fail to reject H0: insufficient evidence of a difference.
