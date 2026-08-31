@@ -1,0 +1,2 @@
+group_1,group_2,mean_difference_group_1_minus_group_2,t_statistic,degrees_of_freedom,p_value_two_sided,alpha,conclusion
+Midfielder,Forward,0.28237132862714454,0.5842641770365457,77.72652350447986,0.560734562629664,0.05,Fail to reject H0: insufficient evidence of a difference.

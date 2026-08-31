@@ -1,168 +1,175 @@
 # HIT140 Group Project — FIFA World Cup 2026 Player Analysis
 
-This branch develops the four distinct analytic tasks required by Objective 1 of the HIT140 FIFA World Cup 2026 project brief. The primary source is the [official FIFA player-statistics table](https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics/player-statistics).
+This branch implements the four distinct Objective 1 analytic tasks in the HIT140 project brief. The primary data source is FIFA's [official player-statistics table](https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics/player-statistics), supplemented by FIFA's [official standings and knockout bracket](https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/standings).
 
-## Scope and design constraints
+## Important design decision
 
-Each task below includes a distinct analytic question, data wrangling, data preparation and sampling, descriptive statistics, a confidence interval, and an allowed inferential test.
+The original ideas included paired comparisons between group and knockout matches and between first and second halves. They cannot be core tasks for this brief:
 
-The project brief permits a **one-sample t-test or an independent two-sample t-test**. It does not permit a paired t-test. FIFA's player-statistics page also reports cumulative tournament totals rather than player-by-match or first-half/second-half observations. Therefore:
+- the brief permits a one-sample t-test or an independent two-sample t-test, not a paired t-test;
+- FIFA's player-statistics page contains cumulative tournament totals, not player-by-match or half-by-half records;
+- treating cumulative totals as paired observations would invent data that the source does not provide.
 
-- the proposed paired comparison of each player's group-stage and knockout-stage attempts cannot be used as a core task;
-- the proposed paired first-half/second-half passing comparison cannot be calculated from this source;
-- a team-level group-stage/knockout-stage attempts comparison would require match-level data from a different FIFA Match Centre source.
+The revised questions retain the shooting and passing themes, add distinct defensive and physical focal points, and use only the permitted independent two-sample test.
 
-The revised questions preserve the intended shooting and passing themes while remaining compatible with the brief and the available FIFA table.
+## Questions, rationale and hypotheses
 
-## Population, eligibility and sampling
+### Task 1 — Shooting and tournament progression
 
-The target population is players who appeared at the FIFA World Cup 2026. Players with fewer than the task-specific minimum minutes are excluded because a very small denominator makes per-90 rates unstable.
+**Question:** For outfield players who played at least 90 minutes, does mean attempts at goal per 90 differ between players from knockout teams and players from group-stage exits?
 
-For each task:
+**Why chosen:** This is the closest valid version of the requested group-stage/knockout shooting question. Per-90 rates control for different playing time and for knockout teams playing additional matches.
 
-1. construct the eligible population after merging the relevant FIFA category with minutes played and player details;
-2. remove rows missing a required measurement rather than inventing values;
-3. draw an independently reproducible sample from each comparison group with pandas DataFrame.sample and random_state=2026;
-4. use at least 30 observations per group where the eligible group size permits, supporting the Central Limit Theorem treatment taught in Module 1;
-5. retain the full eligible population only for a sensitivity check, not as a substitute for the required sampling stage.
+- H0: μ(knockout team) = μ(group-stage exit)
+- H1: μ(knockout team) ≠ μ(group-stage exit)
 
-## Analytic task 1 — Shooting and tournament progression
+### Task 2 — Passing by position
 
-**Question:** Among forwards who played at least 90 minutes, does mean attempts at goal per 90 minutes differ between players whose teams reached the knockout stage and players whose teams exited in the group stage?
+**Question:** For players who played at least 180 minutes, does mean passing accuracy differ between midfielders and defenders?
 
-**Why this question:** It preserves the original interest in group-stage versus knockout football without pretending FIFA supplies paired per-match observations. Dividing cumulative attempts by minutes controls for unequal playing time and extra matches.
-
-**Variables and preparation**
-
-- FIFA attacking table: attempts at goal;
-- FIFA Golden Boot table: position, team and minutes played;
-- FIFA standings: whether the team reached the knockout stage;
-- derived feature: attempts_at_goal_per90 = attempts_at_goal / minutes_played × 90.
-
-**Hypotheses**
-
-- H0: μ(knockout) = μ(group exit)
-- H1: μ(knockout) ≠ μ(group exit)
-
-**Analysis plan**
-
-- stratified random sample from the two progression groups;
-- describe(), mean, median, standard deviation, IQR and group boxplot/swarmplot;
-- 95% confidence interval for each group mean;
-- independent two-sample t-test using scipy.stats.ttest_ind().
-
-## Analytic task 2 — Passing by playing position
-
-**Question:** Among players who completed at least 180 minutes, does mean passing accuracy differ between midfielders and defenders?
-
-**Why this question:** Passing is a separate technical focal point and the comparison has a clear football interpretation: midfielders typically pass under different spatial and defensive pressures from defenders.
-
-**Variables and preparation**
-
-- FIFA distribution table: passes, passes completed and passing accuracy;
-- FIFA Golden Boot table: position and minutes played;
-- exclude players below 180 minutes and records without passing accuracy.
-
-**Hypotheses**
+**Why chosen:** Passing is a separate technical focal point, and the positions have different roles and spatial pressures.
 
 - H0: μ(midfielders) = μ(defenders)
 - H1: μ(midfielders) ≠ μ(defenders)
 
-**Analysis plan**
+### Task 3 — Defensive work by position
 
-- independent reproducible samples of midfielders and defenders;
-- descriptive statistics, histogram and boxplot/swarmplot;
-- 95% confidence interval for each position's mean passing accuracy;
-- independent two-sample t-test using scipy.stats.ttest_ind().
+**Question:** For players who played at least 90 minutes, does mean forced turnovers per 90 differ between midfielders and forwards?
 
-## Analytic task 3 — Defensive work by playing position
-
-**Question:** Among outfield players who completed at least 180 minutes, does mean forced turnovers per 90 minutes differ between midfielders and forwards?
-
-**Why this question:** Forced turnovers measure defensive work and are distinct from shooting, passing and physical workload. Comparing midfielders with forwards examines how role affects ball recovery.
-
-**Variables and preparation**
-
-- FIFA defending table: forced turnovers;
-- FIFA Golden Boot table: position and minutes played;
-- derived feature: forced_turnovers_per90 = forced_turnovers / minutes_played × 90.
-
-**Hypotheses**
+**Why chosen:** Forced turnovers measure defensive work rather than shooting, passing, or physical workload. The 90-minute threshold also provides enough eligible observations for balanced random samples.
 
 - H0: μ(midfielders) = μ(forwards)
 - H1: μ(midfielders) ≠ μ(forwards)
 
-**Analysis plan**
+### Task 4 — Physical workload by position
 
-- independent reproducible samples of midfielders and forwards;
-- descriptive statistics and comparative boxplot/swarmplot;
-- 95% confidence interval for each group mean;
-- independent two-sample t-test using scipy.stats.ttest_ind().
+**Question:** For players who played at least 180 minutes, does mean total distance covered per 90 differ between midfielders and forwards?
 
-## Analytic task 4 — Physical workload by playing position
-
-**Question:** Among outfield players who completed at least 180 minutes, does mean total distance covered per 90 minutes differ between midfielders and forwards?
-
-**Why this question:** Distance is a physical-workload focal point and is not a duplicate of technical shooting, passing or defensive actions.
-
-**Variables and preparation**
-
-- FIFA physical table: total distance in metres;
-- FIFA Golden Boot table: position and minutes played;
-- derived feature: distance_metres_per90 = total_distance_metres / minutes_played × 90.
-
-**Hypotheses**
+**Why chosen:** Distance is a distinct physical focal point and the positional comparison has a clear football interpretation.
 
 - H0: μ(midfielders) = μ(forwards)
 - H1: μ(midfielders) ≠ μ(forwards)
 
-**Analysis plan**
+## Data acquisition and audit trail
 
-- independent reproducible samples of midfielders and forwards;
-- descriptive statistics and comparative boxplot/swarmplot;
-- 95% confidence interval for each group mean;
-- independent two-sample t-test using scipy.stats.ttest_ind().
+FIFA's statistics table is rendered by JavaScript. A normal Python request retrieves the page shell but not the table, so the Module 1/2 technique pandas.read_html(URL) cannot read it. The modules do not teach requests, BeautifulSoup, Selenium, Playwright, or FIFA's private API.
 
-## Data collection and wrangling plan
+To avoid claiming that pandas scraped data it cannot access:
 
-FIFA's player table is JavaScript-rendered. A normal Python request receives the page shell but not the table, so pandas.read_html(URL) cannot directly scrape it. Modules 1 and 2 do not teach requests, BeautifulSoup, Selenium, Playwright or FIFA's private web API. To keep the submitted analysis within taught tools:
+1. the visible official FIFA tables were expanded completely and preserved as dated raw CSV snapshots;
+2. each raw player file includes the official source URL and retrieval date (2026-08-31);
+3. team progression was derived from the official 32-team knockout bracket and recorded for all 48 teams;
+4. the submitted preparation and analysis code uses the taught pandas, SciPy, math, matplotlib, and seaborn workflow.
 
-1. preserve dated raw CSV snapshots of the visible official FIFA tables for Golden Boot, attacking, distribution, defending and physical statistics;
-2. preserve a FIFA standings-derived team progression table;
-3. use pandas.read_csv() to load the snapshots;
-4. use pandas.merge() to join category tables on player, team and position;
-5. use listwise deletion with dropna() for missing required values;
-6. construct per-90 features with ordinary Python arithmetic and pandas columns;
-7. save a clean analysis-ready CSV.
+This is a transparent source-capture boundary: raw acquisition is auditable, while every wrangling, sampling, calculation, confidence interval, test, and plot is reproducible in Python. No unlisted third-party scraping package is hidden in the submission.
 
-The repository will not claim that pandas alone scraped FIFA's dynamic website. The raw files will retain source URLs and a retrieval date so the acquisition step remains auditable.
+## Preparation and sampling plan
 
-## Unit-taught tools used
+The target population is FIFA World Cup 2026 players who appeared in at least one match. The task-specific eligible population is formed after:
 
-| Tool | Use in this project | Unit coverage |
+1. loading the dated CSVs with pandas.read_csv();
+2. validating unique player/team/position keys;
+3. merging minutes, attacking, distribution, defending, physical, and team-progression data with pandas.merge();
+4. excluding goalkeepers where the question concerns outfield players;
+5. applying the minimum-minutes rule;
+6. removing records missing the focal statistic;
+7. calculating per-90 rates where required.
+
+The scripts then take equal-size simple random samples without replacement from each comparison group. pandas.DataFrame.sample() uses random_state=2026, so every user receives the same sample and result.
+
+| Task | Eligible rows | Sample |
+|---|---:|---:|
+| Shooting | 328 | 60 per progression group |
+| Passing | 147 | 50 per position |
+| Defending | 92 | 40 per position |
+| Physical | 105 | 30 per position |
+
+For each sample, the code reports count, mean, median, sample standard deviation, minimum, maximum, and a 95% t confidence interval for each group mean. It then applies a two-sided Welch independent two-sample t-test at α = 0.05. Welch's form is selected through scipy.stats.ttest_ind(equal_var=False), avoiding an unsupported equal-variance assumption.
+
+## Findings
+
+Results below are estimates from the reproducible random samples, not claims that a non-significant result proves the population means identical.
+
+| Task | Group means and 95% CIs | Welch test | Decision at α = 0.05 |
+|---|---|---:|---|
+| Shooting | Knockout 1.418 attempts/90 [1.208, 1.628]; group exit 1.520 [1.296, 1.743] | t = -0.662, p = 0.5090 | Fail to reject H0 |
+| Passing | Midfielders 87.52% [86.29, 88.75]; defenders 88.66% [87.14, 90.18] | t = -1.172, p = 0.2443 | Fail to reject H0 |
+| Defending | Midfielders 4.485 turnovers/90 [3.773, 5.196]; forwards 4.202 [3.532, 4.873] | t = 0.584, p = 0.5607 | Fail to reject H0 |
+| Physical | Midfielders 9.851 km/90 [9.685, 10.016]; forwards 9.367 [9.111, 9.622] | t = 3.250, p = 0.0021 | Reject H0 |
+
+Interpretation:
+
+- The samples do not provide sufficient evidence that shooting volume differs by whether a player's team reached the knockout stage.
+- The samples do not provide sufficient evidence of different mean passing accuracy between midfielders and defenders.
+- The samples do not provide sufficient evidence of different mean forced-turnover rates between midfielders and forwards.
+- Midfielders in the physical-workload sample covered about 0.484 km more per 90 than forwards on average. The observed difference is statistically significant, and both the plot and confidence intervals show the same direction.
+
+Statistical significance does not establish a causal effect of playing position. Team tactics, substitutions, match state, and selection are possible confounders.
+
+## Unit-taught tools
+
+| Tool | Project use | Where covered |
 |---|---|---|
-| Anaconda/conda and VS Code | Python environment | Module 1, Week 1 practicals |
-| Jupyter via VS Code | Run and present the analysis | Module 2, Week 7 practicals |
-| pandas | CSV input, DataFrames, joins, filtering, sampling and derived columns | Module 1 Week 2; Module 2 Weeks 5–7 |
-| numpy | percentiles, variance and standard deviation | Module 1, Week 2 practicals |
-| scipy.stats | sample statistics, normal critical value and independent t-tests | Module 1, Weeks 3–4 practicals |
-| math.sqrt | confidence-interval standard error | Module 1, Week 3 practicals |
-| matplotlib | histograms and annotated charts | Module 1 Week 2; Module 2 Weeks 6–7 |
-| seaborn | boxplots and swarmplots | Module 2, Week 6 practicals |
+| Python in Anaconda/VS Code | Scripts, functions, conditions, calculations | Module 1, Week 1 |
+| Jupyter via VS Code | Optional interactive execution and presentation | Module 2, Week 7 |
+| pandas | CSV input, DataFrames, filtering, joins, sampling, missing-data handling, derived columns, grouped summaries | Module 1, Week 2; Module 2, Weeks 5–7 |
+| scipy.stats | t critical values and independent two-sample t-tests | Module 1, Weeks 3–4 |
+| math.sqrt | Confidence-interval standard errors | Module 1, Week 3 |
+| matplotlib | Figure creation, labels, titles, and saved plots | Module 1, Week 2; Module 2, Weeks 6–7 |
+| seaborn | Comparative boxplots and swarmplots | Module 2, Week 6 |
 
-## Planned repository structure
+## How to run
+
+Python 3.10 or newer is recommended. Jupyter is optional; the analysis is implemented as ordinary Python scripts so it can run from a VS Code terminal.
+
+~~~bash
+git clone https://github.com/vfbmdcccxciii/HIT140_Group_Project.git
+cd HIT140_Group_Project
+git switch fifa-player-analysis
+
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+
+python src/prepare_data.py
+python src/task1_shooting.py
+python src/task2_passing.py
+python src/task3_defending.py
+python src/task4_physical.py
+~~~
+
+On Windows PowerShell, activate the environment with:
+
+~~~powershell
+.venv\Scripts\Activate.ps1
+~~~
+
+Each task prints its results and writes:
+
+- the reproducible sampled rows to outputs/*_sample.csv;
+- descriptive statistics and confidence intervals to outputs/*_descriptive_and_ci.csv;
+- the Welch test result to outputs/*_welch_t_test.csv;
+- a boxplot with all sampled points to outputs/*_plot.png.
+
+The committed result tables provide a check against a fresh run. The processed dataset, sample files, and plots are deterministic generated artifacts and are recreated by the commands above.
+
+## Repository structure
 
 ~~~text
-data/raw/                 Dated FIFA table snapshots
-data/processed/           Merged analysis-ready data
-src/prepare_data.py       Wrangling and feature construction
-src/analysis_common.py    Shared taught statistical helpers
-src/task_1_shooting.py
-src/task_2_passing.py
-src/task_3_defending.py
-src/task_4_physical.py
+data/raw/                              dated official FIFA snapshots
+data/processed/fifa_player_analysis.csv generated merged dataset
+src/prepare_data.py                    validation, joins and features
+src/analysis_common.py                 sampling, CIs, tests and plots
+src/task1_shooting.py
+src/task2_passing.py
+src/task3_defending.py
+src/task4_physical.py
+outputs/*_descriptive_and_ci.csv       committed numerical summaries
+outputs/*_welch_t_test.csv             committed hypothesis-test results
 requirements.txt
 README.md
 ~~~
 
-Findings and exact run instructions will be added only after the data and analyses have been executed and checked.
+## Scope boundary
+
+This branch completes Objective 1. Objective 2 requires separate match-level datasets with exactly eight pre-match explanatory variables for 104 match rows and 208 team-match rows; those regression datasets and models are not included here.
