@@ -1,0 +1,2 @@
+group_1,group_2,mean_difference_group_1_minus_group_2,t_statistic,degrees_of_freedom,p_value_two_sided,alpha,conclusion
+Midfielder,Forward,0.4839400508082985,3.249936998314589,49.67180048347009,0.002074691255303587,0.05,Reject H0: evidence of a difference in population means.
