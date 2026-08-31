@@ -1,0 +1,2 @@
+group_1,group_2,mean_difference_group_1_minus_group_2,t_statistic,degrees_of_freedom,p_value_two_sided,alpha,conclusion
+Knockout team,Group-stage exit,-0.1016381256221226,-0.6623709053292083,117.56240778142151,0.5090299692442283,0.05,Fail to reject H0: insufficient evidence of a difference.
