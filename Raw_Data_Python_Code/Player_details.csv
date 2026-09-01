@@ -1,0 +1,71 @@
+﻿player_Id,player_name,country,players_birthdate,players_age,goals_score,Info source
+1,Álex Baena,Spain,20/07/2001,24,1,Fbref
+2,Mikel Merino,Spain,22/06/1996,30,2,Fbref
+3,"	Lamine Yamal",Spain,13/07/2007,18,1,Fbref
+4,"	Lionel Messi",Argentina,24/06/1987,39,8,Fbref
+5,"	Désiré Doué",France,3/06/2005,21,1,Fbref
+6,Ousmane Dembélé,France,15/05/1997,29,6,Fbref
+7,Erling Haaland,Norway,21/07/2000,25,7,Fbref
+8,Junya Itō,Japan,9/03/1993,33,1,Fbref
+9,Ibrahim Mbaye,Senegal,24/01/2008,18,1,Fbref
+10,"	Nestory Irankunda",Australia,9/02/2006,20,1,Fbref
+11,Brian Cipenga,Congo,11/03/1998,28,1,Fbref
+12,"	Folarin Balogun",USA,3/07/2001,24,3,Fbref
+13,"	Cristiano Ronaldo",Portugal,5/02/1985,41,3,Fbref
+14,"	Gonçalo Ramos",Portugal,20/06/2001,25,1,Fbref
+15,Matheus Cunha,Brazil,27/05/1999,27,3,Fbref
+16,"	Vinicius Júnior",Brazil,12/07/2000,25,4,Fbref
+17,"	Neymar",Brazil,5/02/1992,34,1,Fbref
+18,"	Kylian Mbappé",France,20/12/1998,27,10,Fbref
+19,"	Gessime Yassine",Morroco ,22/11/2005,20,1,Fbref
+20,Ismael Saibari,Morroco ,28/01/2001,25,3,Fbref
+21,"Jude Bellingham	",England,29/06/2003,23,7,Fbref
+22,Harry Kane,England,28/07/1993,32,6,Fbref
+23,Kevin De Bruyne,Belgium ,28/06/1991,35,1,Fbref
+24,"	Mateo Chávez",Mexico,12/05/2004,22,1,Fbref
+25,"	Thapelo Maseko",South Africa,11/11/2003,22,1,Fbref
+26,Kai Havertz,Germany,1/06/1999,27,3,Fbref
+27,Julio Enciso, Paraguay,23/01/2004,22,1,Fbref
+28,Matías Galarza, Paraguay,11/02/2002,24,1,Fbref
+29,"	Mattias Svanberg",Sweden,5/01/1999,27,1,Fbref
+30,"	Kevin Pina",Cape Verde,27/01/1997,29,1,Fbref
+31,"	Hélio Varela",Cape Verde,3/05/2002,24,1,Fbref
+32,Derrick Luckassen,Ghana,3/07/1995,30,1,Fbref
+33,Caleb Yirenkyi,Ghana,15/01/2006,20,1,Fbref
+34,"	Riyad Mahrez", Algeria,21/02/1991,35,2,Fbref
+35,Breel Embolo, Switzerland,14/02/1997,29,2,Fbref
+36,Johan Manzambi, Switzerland,14/10/2005,20,3,Fbref
+37,Mohamed Salah,Egypt,15/06/1992,34,1,Fbref
+38,"	Jaminton Campaz",Colombia,24/05/2000,26,1,Fbref
+39,"	Daniel Muñoz",Colombia,26/05/1996,30,2,Fbref
+40,"	Ramin Rezaeian",Iran,21/03/1990,36,2,Fbref
+41,"	Maxi Araújo",Uruguay,15/02/2000,26,2,Fbref
+42,Erim Alajbegović,Bosnia and Herzegovina,21/09/2007,18,1,Fbref
+43,Ermin Mahmić,Bosnia and Herzegovina,14/03/2005,21,2,Fbref
+44,Hazem Mastouri,Tunisia,18/06/1997,29,1,Fbref
+45,Yasin Ayari,Sweden,6/10/2003,22,2,Fbref
+46,Wilson Isidor,Haiti,27/08/2000,25,1,Fbref
+47,Arda Güler,Türkiye,24/02/2005,21,1,Fbref
+48,"	Kaan Ayhan",Türkiye,10/11/1994,31,1,Fbref
+49,Ladislav Krejčí,Czechia,20/04/1999,27,1,Fbref
+50,Hassan Al-Haydos,Qatar ,11/12/1990,35,1,Fbref
+51,Brian Brobbey,Netherlands,1/02/2002,24,3,Fbref
+52,"	Virgil van Dijk",Netherlands,8/07/1991,34,1,Fbref
+53,Ayman Hussein,Iraq,22/03/1996,30,1,Fbref
+54,Ivan Perišić,Croatia,2/02/1989,37,1,Fbref
+55,Petar Sučić,Croatia,25/10/2003,22,1,Fbref
+56,Elijah Just,New Zealand,1/05/2000,26,3,Fbref
+57,Nicolas Pépé,Côte d'Ivoire,29/05/1995,31,2,Fbref
+58,Jonathan David,Canada,14/01/2000,26,3,Fbref
+59,Nathan Saliba,Canada,7/02/2004,22,1,Fbref
+60,"	Enzo Fernández", Argentina,17/01/2001,25,2,Fbref
+61,Jordan Henderson,England,17/06/1990,36,0,Fbref
+62,Nicolas Raskin,Belgium ,23/02/2001,25,0,Fbref
+63,Arthur Theate,Belgium ,25/05/2000,26,0,Fbref
+64,Ardon Jashari,Switerland,30/07/2002,23,0,Fbref
+65,Djibril Sow,Switerland,6/02/1997,29,0,Fbref
+66,Haissem Hassan,Egypt,8/02/2002,24,0,Fbref
+67,Ayoub El Kaabi,Morroco ,26/06/1993,33,0,Fbref
+68,João Félix,Portugal,10/11/1999,26,0,Fbref
+69,Nuno Mendes,Portugal,19/06/2002,24,1,Fbref
+70,Weston McKennie,USA,28/08/1998,27,0,Fbref
