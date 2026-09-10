@@ -42,13 +42,8 @@ Activate the environment before installing/running: Windows PowerShell `.venv\Sc
 
 The runner builds both tasks. Individual entry points are `src/task1_running.py` and `src/task2_pressing.py` after preparation. `outputs/` contains selected samples, descriptive statistics, CIs, course/Welch test results, eligible-frame summaries, coverage audits and Python-generated figures. The generated merged dataset is excluded from Git because the source snapshots and preparation script recreate it.
 
-## Presentation and assessment evidence
+## Presentation slides
 
 - [PowerPoint: Maximus Turner's segment](presentation/Maximus_Turner_HIT140.pptx)
-- [Three-minute discussion script](presentation/three_minute_script.md)
-- [Detailed analysis and learning-material mapping](docs/max_analysis_notes.md)
-- [Contribution and decision record](docs/contributions_and_decisions.md)
-- [Recording and submission checklist](docs/presentation_and_submission_checklist.md)
-- [AI declaration drafting notes](docs/ai_acknowledgement.md)
 
 The presentation uses Python figures, editable slide text and speaker notes. It addresses the two questions, preparation, sampling, descriptive statistics, confidence intervals, hypothesis testing, limitations and lessons learned. Week 8 regression is intentionally excluded because this is Objective 1. Recording, student-ID verification and signed declarations are separate submission steps, not completed by the code.
