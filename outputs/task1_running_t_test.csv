@@ -1,0 +1,2 @@
+mean_difference_MF_minus_FW,standard_error,t_statistic,degrees_of_freedom,p_value_two_sided,difference_ci_95_lower,difference_ci_95_upper,welch_df,welch_p_value,alpha,decision
+0.5211684598913227,0.14521586314978566,3.5889223710618556,29,0.001205705548907746,0.2241686720694948,0.8181682477131504,56.41222954465895,0.0006957053397308212,0.05,Reject H0

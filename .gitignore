@@ -1,0 +1,6 @@
+.venv/
+.build/
+.codex-finalizer/
+__pycache__/
+*.pyc
+data/processed/

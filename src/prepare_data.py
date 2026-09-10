@@ -21,6 +21,8 @@ def read_metric(filename):
 
 def main():
     minutes = pd.read_csv(RAW_DIR / "fifa_player_minutes_2026-08-31.csv")
+    supplement = pd.read_csv(RAW_DIR / "fifa_player_minutes_supplement_2026-09-10.csv")
+    minutes = pd.concat([minutes, supplement], ignore_index=True)
     if minutes.duplicated(KEY).any():
         raise ValueError("Duplicate player/team/position keys in minutes table")
 
@@ -65,6 +67,22 @@ def main():
     data["total_distance_km_per90"] = (
         data["total_distance_metres"] / 1000 / data["minutes_played"] * 90
     )
+    total = data["defensive_pressures_applied"]
+    direct = data["defensive_pressures_directly_applied"]
+    if ((direct < 0) | (direct > total)).any():
+        raise ValueError("Invalid direct pressure counts")
+    data["direct_pressure_share_pct"] = 100 * direct / total.where(total > 0)
+    output_dir = PROJECT_ROOT / "outputs"
+    output_dir.mkdir(exist_ok=True)
+    coverage = []
+    for name, table in [("physical", physical), ("defending", defending)]:
+        audit = table[KEY].merge(minutes[KEY], on=KEY, how="left", indicator=True)
+        unmatched = audit.loc[audit["_merge"] == "left_only", KEY]
+        unmatched.to_csv(output_dir / f"{name}_unmatched_keys.csv", index=False)
+        coverage.append({"table": name, "raw_rows": len(table),
+                         "matched_minutes": len(table) - len(unmatched),
+                         "unmatched_minutes": len(unmatched)})
+    pd.DataFrame(coverage).to_csv(output_dir / "data_coverage.csv", index=False)
 
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     output = PROCESSED_DIR / "fifa_player_analysis.csv"
