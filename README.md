@@ -1,4 +1,4 @@
-# HIT140 Group Project: Maximus Turner's contribution
+# HIT140 Group Project:
 
 This repository contains group work for CDU HIT140. This README documents **Maximus Turner (vfbmdcccxciii): two Objective 1 questions**, as agreed in the two-person allocation. Other contributors' files are maintained separately. Objective 2 regression is outside this presentation's scope.
 
