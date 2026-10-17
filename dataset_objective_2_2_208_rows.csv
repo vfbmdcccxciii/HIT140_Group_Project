@@ -1,0 +1,209 @@
+match_id,date,round,team,opponent,team_fifa_rank,opp_fifa_rank,is_host_or_home,rest_days,squad_mean_age,veteran_scorer_ratio,pre_match_scoring_form,squad_attacking_depth,team_goals
+1,2026-06-11,Group stage,Mexico,South Africa,16,63,1,5,27.4,0.444,1.35,17,2
+1,2026-06-11,Group stage,South Africa,Mexico,63,16,0,5,26.63,0.333,1.25,13,0
+2,2026-06-11,Group stage,Korea Republic,Czechia,22,37,1,5,27.65,0.429,1.35,16,2
+2,2026-06-11,Group stage,Czechia,Korea Republic,37,22,0,5,27.76,0.429,1.25,15,1
+3,2026-06-12,Group stage,Canada,Bosnia–Herz,31,78,1,5,26.36,0.167,1.35,16,1
+3,2026-06-12,Group stage,Bosnia–Herz,Canada,78,31,0,5,26.17,0.4,1.25,15,1
+4,2026-06-12,Group stage,USA,Paraguay,18,39,1,5,26.42,0.0,1.35,15,4
+4,2026-06-12,Group stage,Paraguay,USA,39,18,0,5,28.0,0.5,1.25,15,1
+5,2026-06-13,Group stage,Qatar,Switzerland,70,20,1,5,29.36,0.667,1.35,14,1
+5,2026-06-13,Group stage,Switzerland,Qatar,20,70,0,5,28.09,0.444,1.25,15,1
+6,2026-06-13,Group stage,Brazil,Morocco,5,14,1,5,28.18,0.25,1.35,16,1
+6,2026-06-13,Group stage,Morocco,Brazil,14,5,0,5,25.43,0.4,1.25,16,1
+7,2026-06-13,Group stage,Australia,Türkiye,24,28,1,5,26.43,0.25,1.35,15,2
+7,2026-06-13,Group stage,Türkiye,Australia,28,24,0,5,26.57,0.0,1.25,13,0
+8,2026-06-13,Group stage,Haiti,Scotland,85,36,1,5,28.06,0.5,1.35,14,0
+8,2026-06-13,Group stage,Scotland,Haiti,36,85,0,5,28.4,1.0,1.25,12,1
+9,2026-06-14,Group stage,Germany,Curaçao,13,98,1,5,27.52,0.2,1.35,16,7
+9,2026-06-14,Group stage,Curaçao,Germany,98,13,0,5,28.09,0.571,1.25,13,1
+10,2026-06-14,Group stage,Netherlands,Japan,7,17,1,5,27.45,0.222,1.35,17,2
+10,2026-06-14,Group stage,Japan,Netherlands,17,7,0,5,26.96,0.0,1.25,16,2
+11,2026-06-14,Group stage,Côte d'Ivoire,Ecuador,40,27,1,5,25.32,0.125,1.35,14,1
+11,2026-06-14,Group stage,Ecuador,Côte d'Ivoire,27,40,0,5,25.95,0.25,1.25,14,0
+12,2026-06-14,Group stage,Sweden,Tunisia,26,41,1,5,26.86,0.333,1.35,16,5
+12,2026-06-14,Group stage,Tunisia,Sweden,41,26,0,5,27.4,0.167,1.25,12,1
+13,2026-06-15,Group stage,Belgium,Egypt,6,33,1,5,27.83,0.5,1.35,14,1
+13,2026-06-15,Group stage,Egypt,Belgium,33,6,0,5,28.05,0.5,1.25,13,1
+14,2026-06-15,Group stage,Spain,Cabo Verde,3,76,1,5,26.09,0.286,1.35,15,0
+14,2026-06-15,Group stage,Cabo Verde,Spain,76,3,0,5,29.43,0.429,1.25,14,0
+15,2026-06-15,Group stage,Saudi Arabia,Uruguay,56,11,1,5,27.89,0.0,1.35,11,1
+15,2026-06-15,Group stage,Uruguay,Saudi Arabia,11,56,0,5,28.53,0.167,1.25,10,1
+16,2026-06-15,Group stage,IR Iran,New Zealand,21,94,1,5,30.45,0.667,1.35,13,2
+16,2026-06-15,Group stage,New Zealand,IR Iran,94,21,0,5,27.53,1.0,1.25,9,2
+17,2026-06-16,Group stage,France,Senegal,2,19,1,5,26.05,0.0,1.35,13,3
+17,2026-06-16,Group stage,Senegal,France,19,2,0,5,27.0,0.2,1.25,13,1
+18,2026-06-16,Group stage,Iraq,Norway,58,45,1,5,26.24,0.333,1.35,14,1
+18,2026-06-16,Group stage,Norway,Iraq,45,58,0,5,26.48,0.143,1.25,14,4
+19,2026-06-16,Group stage,Argentina,Algeria,1,34,1,5,28.33,0.2,1.35,14,3
+19,2026-06-16,Group stage,Algeria,Argentina,34,1,0,5,26.73,0.0,1.25,13,0
+20,2026-06-16,Group stage,Austria,Jordan,23,68,1,5,28.35,0.4,1.35,13,3
+20,2026-06-16,Group stage,Jordan,Austria,68,23,0,5,28.25,0.5,1.25,10,1
+21,2026-06-17,Group stage,Portugal,Congo DR,8,65,1,5,27.18,0.333,1.35,16,1
+21,2026-06-17,Group stage,Congo DR,Portugal,65,8,0,5,28.52,0.667,1.25,14,1
+22,2026-06-17,Group stage,England,Croatia,4,12,1,5,27.12,1.0,1.35,14,4
+22,2026-06-17,Group stage,Croatia,England,12,4,0,5,28.11,0.286,1.25,14,2
+23,2026-06-17,Group stage,Ghana,Panama,74,43,1,5,26.73,0.286,1.35,13,1
+23,2026-06-17,Group stage,Panama,Ghana,43,74,0,5,29.9,0.714,1.25,13,0
+24,2026-06-17,Group stage,Uzbekistan,Colombia,60,9,1,5,27.43,0.6,1.35,16,1
+24,2026-06-17,Group stage,Colombia,Uzbekistan,9,60,0,5,29.48,0.571,1.25,13,3
+25,2026-06-18,Group stage,Czechia,South Africa,37,63,1,7,27.76,0.429,1.0,15,1
+25,2026-06-18,Group stage,South Africa,Czechia,63,37,0,7,26.63,0.333,0.0,13,1
+26,2026-06-18,Group stage,Switzerland,Bosnia–Herz,20,78,1,5,28.09,0.444,1.0,15,4
+26,2026-06-18,Group stage,Bosnia–Herz,Switzerland,78,20,0,6,26.17,0.4,1.0,15,1
+27,2026-06-18,Group stage,Canada,Qatar,31,70,1,6,26.36,0.167,1.0,16,6
+27,2026-06-18,Group stage,Qatar,Canada,70,31,0,5,29.36,0.667,1.0,14,0
+28,2026-06-18,Group stage,Mexico,Korea Republic,16,22,1,7,27.4,0.444,2.0,17,1
+28,2026-06-18,Group stage,Korea Republic,Mexico,22,16,0,7,27.65,0.429,2.0,16,0
+29,2026-06-19,Group stage,USA,Australia,18,24,1,7,26.42,0.0,4.0,15,2
+29,2026-06-19,Group stage,Australia,USA,24,18,0,6,26.43,0.25,2.0,15,0
+30,2026-06-19,Group stage,Scotland,Morocco,36,14,1,6,28.4,1.0,1.0,12,0
+30,2026-06-19,Group stage,Morocco,Scotland,14,36,0,6,25.43,0.4,1.0,16,1
+31,2026-06-19,Group stage,Türkiye,Paraguay,28,39,1,6,26.57,0.0,0.0,13,0
+31,2026-06-19,Group stage,Paraguay,Türkiye,39,28,0,7,28.0,0.5,1.0,15,1
+32,2026-06-19,Group stage,Brazil,Haiti,5,85,1,6,28.18,0.25,1.0,16,3
+32,2026-06-19,Group stage,Haiti,Brazil,85,5,0,6,28.06,0.5,0.0,14,0
+33,2026-06-20,Group stage,Netherlands,Sweden,7,26,1,6,27.45,0.222,2.0,17,5
+33,2026-06-20,Group stage,Sweden,Netherlands,26,7,0,6,26.86,0.333,5.0,16,1
+34,2026-06-20,Group stage,Germany,Côte d'Ivoire,13,40,1,6,27.52,0.2,7.0,16,2
+34,2026-06-20,Group stage,Côte d'Ivoire,Germany,40,13,0,6,25.32,0.125,1.0,14,1
+35,2026-06-20,Group stage,Ecuador,Curaçao,27,98,1,6,25.95,0.25,0.0,14,0
+35,2026-06-20,Group stage,Curaçao,Ecuador,98,27,0,6,28.09,0.571,1.0,13,0
+36,2026-06-20,Group stage,Tunisia,Japan,41,17,1,6,27.4,0.167,1.0,12,0
+36,2026-06-20,Group stage,Japan,Tunisia,17,41,0,6,26.96,0.0,2.0,16,4
+37,2026-06-21,Group stage,Spain,Saudi Arabia,3,56,1,6,26.09,0.286,0.0,15,4
+37,2026-06-21,Group stage,Saudi Arabia,Spain,56,3,0,6,27.89,0.0,1.0,11,0
+38,2026-06-21,Group stage,Belgium,IR Iran,6,21,1,6,27.83,0.5,1.0,14,0
+38,2026-06-21,Group stage,IR Iran,Belgium,21,6,0,6,30.45,0.667,2.0,13,0
+39,2026-06-21,Group stage,Uruguay,Cabo Verde,11,76,1,6,28.53,0.167,1.0,10,2
+39,2026-06-21,Group stage,Cabo Verde,Uruguay,76,11,0,6,29.43,0.429,0.0,14,2
+40,2026-06-21,Group stage,New Zealand,Egypt,94,33,1,6,27.53,1.0,2.0,9,1
+40,2026-06-21,Group stage,Egypt,New Zealand,33,94,0,6,28.05,0.5,1.0,13,3
+41,2026-06-22,Group stage,Argentina,Austria,1,23,1,6,28.33,0.2,3.0,14,2
+41,2026-06-22,Group stage,Austria,Argentina,23,1,0,6,28.35,0.4,3.0,13,0
+42,2026-06-22,Group stage,France,Iraq,2,58,1,6,26.05,0.0,3.0,13,3
+42,2026-06-22,Group stage,Iraq,France,58,2,0,6,26.24,0.333,1.0,14,0
+43,2026-06-22,Group stage,Norway,Senegal,45,19,1,6,26.48,0.143,4.0,14,3
+43,2026-06-22,Group stage,Senegal,Norway,19,45,0,6,27.0,0.2,1.0,13,2
+44,2026-06-22,Group stage,Jordan,Algeria,68,34,1,6,28.25,0.5,1.0,10,1
+44,2026-06-22,Group stage,Algeria,Jordan,34,68,0,6,26.73,0.0,0.0,13,2
+45,2026-06-23,Group stage,Portugal,Uzbekistan,8,60,1,6,27.18,0.333,1.0,16,5
+45,2026-06-23,Group stage,Uzbekistan,Portugal,60,8,0,6,27.43,0.6,1.0,16,0
+46,2026-06-23,Group stage,England,Ghana,4,74,1,6,27.12,1.0,4.0,14,0
+46,2026-06-23,Group stage,Ghana,England,74,4,0,6,26.73,0.286,1.0,13,0
+47,2026-06-23,Group stage,Panama,Croatia,43,12,1,6,29.9,0.714,0.0,13,0
+47,2026-06-23,Group stage,Croatia,Panama,12,43,0,6,28.11,0.286,2.0,14,1
+48,2026-06-23,Group stage,Colombia,Congo DR,9,65,1,6,29.48,0.571,3.0,13,1
+48,2026-06-23,Group stage,Congo DR,Colombia,65,9,0,6,28.52,0.667,1.0,14,0
+49,2026-06-24,Group stage,Switzerland,Canada,20,31,1,6,28.09,0.444,2.5,15,2
+49,2026-06-24,Group stage,Canada,Switzerland,31,20,1,6,26.36,0.167,3.5,16,1
+50,2026-06-24,Group stage,Bosnia–Herz,Qatar,78,70,1,6,26.17,0.4,1.0,15,3
+50,2026-06-24,Group stage,Qatar,Bosnia–Herz,70,78,0,6,29.36,0.667,0.5,14,1
+51,2026-06-24,Group stage,Scotland,Brazil,36,5,1,5,28.4,1.0,0.5,12,0
+51,2026-06-24,Group stage,Brazil,Scotland,5,36,0,5,28.18,0.25,2.0,16,3
+52,2026-06-24,Group stage,Morocco,Haiti,14,85,1,5,25.43,0.4,1.0,16,4
+52,2026-06-24,Group stage,Haiti,Morocco,85,14,0,5,28.06,0.5,0.0,14,2
+53,2026-06-24,Group stage,South Africa,Korea Republic,63,22,1,6,26.63,0.333,0.5,13,1
+53,2026-06-24,Group stage,Korea Republic,South Africa,22,63,0,6,27.65,0.429,1.0,16,0
+54,2026-06-24,Group stage,Czechia,Mexico,37,16,1,6,27.76,0.429,1.0,15,0
+54,2026-06-24,Group stage,Mexico,Czechia,16,37,1,6,27.4,0.444,1.5,17,3
+55,2026-06-25,Group stage,Curaçao,Côte d'Ivoire,98,40,1,5,28.09,0.571,0.5,13,0
+55,2026-06-25,Group stage,Côte d'Ivoire,Curaçao,40,98,0,5,25.32,0.125,1.0,14,2
+56,2026-06-25,Group stage,Ecuador,Germany,27,13,1,5,25.95,0.25,0.0,14,2
+56,2026-06-25,Group stage,Germany,Ecuador,13,27,0,5,27.52,0.2,4.5,16,1
+57,2026-06-25,Group stage,Tunisia,Netherlands,41,7,1,5,27.4,0.167,0.5,12,1
+57,2026-06-25,Group stage,Netherlands,Tunisia,7,41,0,5,27.45,0.222,3.5,17,3
+58,2026-06-25,Group stage,Japan,Sweden,17,26,1,5,26.96,0.0,3.0,16,1
+58,2026-06-25,Group stage,Sweden,Japan,26,17,0,5,26.86,0.333,3.0,16,1
+59,2026-06-25,Group stage,Türkiye,USA,28,18,1,6,26.57,0.0,0.0,13,3
+59,2026-06-25,Group stage,USA,Türkiye,18,28,1,6,26.42,0.0,3.0,15,2
+60,2026-06-25,Group stage,Paraguay,Australia,39,24,1,6,28.0,0.5,1.0,15,0
+60,2026-06-25,Group stage,Australia,Paraguay,24,39,0,6,26.43,0.25,1.0,15,0
+61,2026-06-26,Group stage,Norway,France,45,2,1,4,26.48,0.143,3.5,14,1
+61,2026-06-26,Group stage,France,Norway,2,45,0,4,26.05,0.0,3.0,13,4
+62,2026-06-26,Group stage,Senegal,Iraq,19,58,1,4,27.0,0.2,1.5,13,5
+62,2026-06-26,Group stage,Iraq,Senegal,58,19,0,4,26.24,0.333,0.5,14,0
+63,2026-06-26,Group stage,Uruguay,Spain,11,3,1,5,28.53,0.167,1.5,10,0
+63,2026-06-26,Group stage,Spain,Uruguay,3,11,0,5,26.09,0.286,2.0,15,1
+64,2026-06-26,Group stage,Cabo Verde,Saudi Arabia,76,56,1,5,29.43,0.429,1.0,14,0
+64,2026-06-26,Group stage,Saudi Arabia,Cabo Verde,56,76,0,5,27.89,0.0,0.5,11,0
+65,2026-06-26,Group stage,Egypt,IR Iran,33,21,1,5,28.05,0.5,2.0,13,1
+65,2026-06-26,Group stage,IR Iran,Egypt,21,33,0,5,30.45,0.667,1.0,13,1
+66,2026-06-26,Group stage,New Zealand,Belgium,94,6,1,5,27.53,1.0,1.5,9,1
+66,2026-06-26,Group stage,Belgium,New Zealand,6,94,0,5,27.83,0.5,0.5,14,5
+67,2026-06-27,Group stage,Croatia,Ghana,12,74,1,4,28.11,0.286,1.5,14,2
+67,2026-06-27,Group stage,Ghana,Croatia,74,12,0,4,26.73,0.286,0.5,13,1
+68,2026-06-27,Group stage,Panama,England,43,4,1,4,29.9,0.714,0.0,13,0
+68,2026-06-27,Group stage,England,Panama,4,43,0,4,27.12,1.0,2.0,14,2
+69,2026-06-27,Group stage,Congo DR,Uzbekistan,65,60,1,4,28.52,0.667,0.5,14,3
+69,2026-06-27,Group stage,Uzbekistan,Congo DR,60,65,0,4,27.43,0.6,0.5,16,1
+70,2026-06-27,Group stage,Colombia,Portugal,9,8,1,4,29.48,0.571,2.0,13,0
+70,2026-06-27,Group stage,Portugal,Colombia,8,9,0,4,27.18,0.333,3.0,16,0
+71,2026-06-27,Group stage,Jordan,Argentina,68,1,1,5,28.25,0.5,1.0,10,1
+71,2026-06-27,Group stage,Argentina,Jordan,1,68,0,5,28.33,0.2,2.5,14,3
+72,2026-06-27,Group stage,Algeria,Austria,34,23,1,5,26.73,0.0,1.0,13,3
+72,2026-06-27,Group stage,Austria,Algeria,23,34,0,5,28.35,0.4,1.5,13,3
+73,2026-06-28,Round of 32,South Africa,Canada,63,31,1,4,26.63,0.333,0.667,13,0
+73,2026-06-28,Round of 32,Canada,South Africa,31,63,1,4,26.36,0.167,2.667,16,1
+74,2026-06-29,Round of 32,Brazil,Japan,5,17,1,5,28.18,0.25,2.333,16,2
+74,2026-06-29,Round of 32,Japan,Brazil,17,5,0,4,26.96,0.0,2.333,16,1
+75,2026-06-29,Round of 32,Germany,Paraguay,13,39,1,4,27.52,0.2,3.333,16,1
+75,2026-06-29,Round of 32,Paraguay,Germany,39,13,0,4,28.0,0.5,0.667,15,1
+76,2026-06-29,Round of 32,Netherlands,Morocco,7,14,1,4,27.45,0.222,3.333,17,1
+76,2026-06-29,Round of 32,Morocco,Netherlands,14,7,0,5,25.43,0.4,2.0,16,1
+77,2026-06-30,Round of 32,Côte d'Ivoire,Norway,40,45,1,5,25.32,0.125,1.333,14,1
+77,2026-06-30,Round of 32,Norway,Côte d'Ivoire,45,40,0,4,26.48,0.143,2.667,14,2
+78,2026-06-30,Round of 32,France,Sweden,2,26,1,4,26.05,0.0,3.333,13,3
+78,2026-06-30,Round of 32,Sweden,France,26,2,0,5,26.86,0.333,2.333,16,0
+79,2026-06-30,Round of 32,Mexico,Ecuador,16,27,1,6,27.4,0.444,2.0,17,2
+79,2026-06-30,Round of 32,Ecuador,Mexico,27,16,0,5,25.95,0.25,0.667,14,0
+80,2026-07-01,Round of 32,England,Congo DR,4,65,1,4,27.12,1.0,2.0,14,2
+80,2026-07-01,Round of 32,Congo DR,England,65,4,0,4,28.52,0.667,1.333,14,1
+81,2026-07-01,Round of 32,Belgium,Senegal,6,19,1,5,27.83,0.5,2.0,14,3
+81,2026-07-01,Round of 32,Senegal,Belgium,19,6,0,5,27.0,0.2,2.667,13,2
+82,2026-07-01,Round of 32,USA,Bosnia–Herz,18,78,1,6,26.42,0.0,2.667,15,2
+82,2026-07-01,Round of 32,Bosnia–Herz,USA,78,18,0,7,26.17,0.4,1.667,15,0
+83,2026-07-02,Round of 32,Spain,Austria,3,23,1,6,26.09,0.286,1.667,15,3
+83,2026-07-02,Round of 32,Austria,Spain,23,3,0,5,28.35,0.4,2.0,13,0
+84,2026-07-02,Round of 32,Portugal,Croatia,8,12,1,5,27.18,0.333,2.0,16,2
+84,2026-07-02,Round of 32,Croatia,Portugal,12,8,0,5,28.11,0.286,1.667,14,1
+85,2026-07-02,Round of 32,Switzerland,Algeria,20,34,1,8,28.09,0.444,2.333,15,2
+85,2026-07-02,Round of 32,Algeria,Switzerland,34,20,0,5,26.73,0.0,1.667,13,0
+86,2026-07-03,Round of 32,Australia,Egypt,24,33,1,8,26.43,0.25,0.667,15,1
+86,2026-07-03,Round of 32,Egypt,Australia,33,24,0,7,28.05,0.5,1.667,13,1
+87,2026-07-03,Round of 32,Argentina,Cabo Verde,1,76,1,6,28.33,0.2,2.667,14,3
+87,2026-07-03,Round of 32,Cabo Verde,Argentina,76,1,0,7,29.43,0.429,0.667,14,2
+88,2026-07-03,Round of 32,Colombia,Ghana,9,74,1,6,29.48,0.571,1.333,13,1
+88,2026-07-03,Round of 32,Ghana,Colombia,74,9,0,6,26.73,0.286,0.667,13,0
+89,2026-07-04,Round of 16,Canada,Morocco,31,14,1,6,26.36,0.167,2.25,16,0
+89,2026-07-04,Round of 16,Morocco,Canada,14,31,0,5,25.43,0.4,1.75,16,3
+90,2026-07-04,Round of 16,Paraguay,France,39,2,1,5,28.0,0.5,0.75,15,0
+90,2026-07-04,Round of 16,France,Paraguay,2,39,0,4,26.05,0.0,3.25,13,1
+91,2026-07-05,Round of 16,Brazil,Norway,5,45,1,6,28.18,0.25,2.25,16,1
+91,2026-07-05,Round of 16,Norway,Brazil,45,5,0,5,26.48,0.143,2.5,14,2
+92,2026-07-05,Round of 16,Mexico,England,16,4,1,5,27.4,0.444,2.0,17,2
+92,2026-07-05,Round of 16,England,Mexico,4,16,0,4,27.12,1.0,2.0,14,3
+93,2026-07-06,Round of 16,Portugal,Spain,8,3,1,4,27.18,0.333,2.0,16,0
+93,2026-07-06,Round of 16,Spain,Portugal,3,8,0,4,26.09,0.286,2.0,15,1
+94,2026-07-06,Round of 16,USA,Belgium,18,6,1,5,26.42,0.0,2.5,15,1
+94,2026-07-06,Round of 16,Belgium,USA,6,18,0,5,27.83,0.5,2.25,14,4
+95,2026-07-07,Round of 16,Argentina,Egypt,1,33,1,4,28.33,0.2,2.75,14,3
+95,2026-07-07,Round of 16,Egypt,Argentina,33,1,0,4,28.05,0.5,1.5,13,2
+96,2026-07-07,Round of 16,Switzerland,Colombia,20,9,1,5,28.09,0.444,2.25,15,0
+96,2026-07-07,Round of 16,Colombia,Switzerland,9,20,0,4,29.48,0.571,1.25,13,0
+97,2026-07-09,Quarter-finals,France,Morocco,2,14,1,5,26.05,0.0,2.8,13,2
+97,2026-07-09,Quarter-finals,Morocco,France,14,2,0,5,25.43,0.4,2.0,16,0
+98,2026-07-10,Quarter-finals,Spain,Belgium,3,6,1,4,26.09,0.286,1.8,15,2
+98,2026-07-10,Quarter-finals,Belgium,Spain,6,3,0,4,27.83,0.5,2.6,14,1
+99,2026-07-11,Quarter-finals,Norway,England,45,4,1,6,26.48,0.143,2.4,14,1
+99,2026-07-11,Quarter-finals,England,Norway,4,45,0,6,27.12,1.0,2.2,14,2
+100,2026-07-11,Quarter-finals,Argentina,Switzerland,1,20,1,4,28.33,0.2,2.8,14,3
+100,2026-07-11,Quarter-finals,Switzerland,Argentina,20,1,0,4,28.09,0.444,1.8,15,1
+101,2026-07-14,Semi-finals,France,Spain,2,3,1,5,26.05,0.0,2.667,13,0
+101,2026-07-14,Semi-finals,Spain,France,3,2,0,4,26.09,0.286,1.833,15,2
+102,2026-07-15,Semi-finals,England,Argentina,4,1,1,4,27.12,1.0,2.167,14,1
+102,2026-07-15,Semi-finals,Argentina,England,1,4,0,4,28.33,0.2,2.833,14,2
+103,2026-07-18,Third-place match,France,England,2,4,1,4,26.05,0.0,2.286,13,4
+103,2026-07-18,Third-place match,England,France,4,2,0,3,27.12,1.0,2.0,14,6
+104,2026-07-19,Final,Spain,Argentina,3,1,1,5,26.09,0.286,1.857,15,1
+104,2026-07-19,Final,Argentina,Spain,1,3,0,4,28.33,0.2,2.714,14,0
