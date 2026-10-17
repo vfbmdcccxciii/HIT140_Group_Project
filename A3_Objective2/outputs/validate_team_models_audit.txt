@@ -1,0 +1,4 @@
+Exact-name shared variables 2.1(Stephen) vs 2.2(Quentin): none
+Conceptual overlap: rest days (Rest_Days_Advantage vs rest_days) = 1 shared concept (limit 4).
+Quentin is_host_or_home = 1 in 51.9% of rows; rows for true hosts USA/Mexico/Canada: 15
+Elo gap agreement (Stephen vs eloratings pull, 104 matches): median |diff| = 66 pts, >50 pts in 59 matches, corr = 0.93; match 1 (Mexico v South Africa): 274 vs 357

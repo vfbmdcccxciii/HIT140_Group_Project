@@ -1,0 +1,7 @@
+model,n,k,cv_r2,cv_r2_sd,cv_r2_min,cv_r2_max,cv_rmse,cv_mae,folds
+"2.1 Stephen: Ridge, 11 terms as specified",104,11,0.2902,0.2168,-0.8669,0.6054,1.5931,1.2446,100
+"2.1 Stephen: Ridge, 8 base variables only (sensitivity)",104,8,0.2923,0.2174,-0.7402,0.5952,1.5911,1.2529,100
+2.1 mean-only baseline,104,0,-0.1108,0.1587,-0.9595,-0.0,2.0221,1.5975,100
+"2.2 Quentin: OLS, 8 variables as specified",208,8,0.0931,0.197,-0.7579,0.3716,1.275,0.9966,100
+2.2 mean-only baseline,208,0,-0.05,0.0778,-0.5466,-0.0,1.3861,1.1189,100
+"2.2 Quentin: OLS, match-grouped 5-fold (robustness)",208,8,0.1126,0.1628,-0.5123,0.4171,1.2748,0.9936,100
