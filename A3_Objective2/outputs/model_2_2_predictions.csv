@@ -1,0 +1,209 @@
+match_id,team,opponent,round,actual,predicted_oof,residual
+1,Mexico,South Africa,Matchday 1,2,2.531,-0.531
+1,South Africa,Mexico,Matchday 1,0,0.454,-0.454
+2,South Korea,Czech Republic,Matchday 1,2,1.347,0.653
+2,Czech Republic,South Korea,Matchday 1,1,1.597,-0.597
+3,Czech Republic,South Africa,Matchday 8,1,2.181,-1.181
+3,South Africa,Czech Republic,Matchday 8,1,0.988,0.012
+4,Mexico,South Korea,Matchday 8,1,2.275,-1.275
+4,South Korea,Mexico,Matchday 8,0,1.007,-1.007
+5,Czech Republic,Mexico,Matchday 14,0,1.306,-1.306
+5,Mexico,Czech Republic,Matchday 14,3,2.326,0.674
+6,South Africa,South Korea,Matchday 14,1,0.788,0.212
+6,South Korea,South Africa,Matchday 14,0,1.873,-1.873
+7,Canada,Bosnia & Herzegovina,Matchday 2,1,2.239,-1.239
+7,Bosnia & Herzegovina,Canada,Matchday 2,1,1.288,-0.288
+8,Qatar,Switzerland,Matchday 3,1,-0.1,1.1
+8,Switzerland,Qatar,Matchday 3,1,2.215,-1.215
+9,Switzerland,Bosnia & Herzegovina,Matchday 8,4,2.175,1.825
+9,Bosnia & Herzegovina,Switzerland,Matchday 8,1,1.434,-0.434
+10,Canada,Qatar,Matchday 8,6,2.112,3.888
+10,Qatar,Canada,Matchday 8,0,0.449,-0.449
+11,Switzerland,Canada,Matchday 14,2,1.61,0.39
+11,Canada,Switzerland,Matchday 14,1,1.736,-0.736
+12,Bosnia & Herzegovina,Qatar,Matchday 14,3,2.547,0.453
+12,Qatar,Bosnia & Herzegovina,Matchday 14,1,0.707,0.293
+13,Brazil,Morocco,Matchday 3,1,1.934,-0.934
+13,Morocco,Brazil,Matchday 3,1,1.814,-0.814
+14,Haiti,Scotland,Matchday 3,0,0.911,-0.911
+14,Scotland,Haiti,Matchday 3,1,1.897,-0.897
+15,Scotland,Morocco,Matchday 9,0,1.004,-1.004
+15,Morocco,Scotland,Matchday 9,1,2.07,-1.07
+16,Brazil,Haiti,Matchday 9,3,2.922,0.078
+16,Haiti,Brazil,Matchday 9,0,0.328,-0.328
+17,Scotland,Brazil,Matchday 14,0,0.973,-0.973
+17,Brazil,Scotland,Matchday 14,3,2.192,0.808
+18,Morocco,Haiti,Matchday 14,4,2.185,1.815
+18,Haiti,Morocco,Matchday 14,2,0.482,1.518
+19,USA,Paraguay,Matchday 2,4,1.844,2.156
+19,Paraguay,USA,Matchday 2,1,1.774,-0.774
+20,Australia,Turkey,Matchday 3,2,0.874,1.126
+20,Turkey,Australia,Matchday 3,0,2.027,-2.027
+21,USA,Australia,Matchday 9,2,1.86,0.14
+21,Australia,USA,Matchday 9,0,1.186,-1.186
+22,Turkey,Paraguay,Matchday 9,0,1.883,-1.883
+22,Paraguay,Turkey,Matchday 9,1,1.233,-0.233
+23,Turkey,USA,Matchday 15,3,1.695,1.305
+23,USA,Turkey,Matchday 15,2,2.158,-0.158
+24,Paraguay,Australia,Matchday 15,0,1.58,-1.58
+24,Australia,Paraguay,Matchday 15,0,1.063,-1.063
+25,Germany,Curaçao,Matchday 4,7,2.654,4.346
+25,Curaçao,Germany,Matchday 4,1,-0.037,1.037
+26,Ivory Coast,Ecuador,Matchday 4,1,1.696,-0.696
+26,Ecuador,Ivory Coast,Matchday 4,0,1.699,-1.699
+27,Germany,Ivory Coast,Matchday 10,2,1.995,0.005
+27,Ivory Coast,Germany,Matchday 10,1,1.753,-0.753
+28,Ecuador,Curaçao,Matchday 10,0,2.712,-2.712
+28,Curaçao,Ecuador,Matchday 10,0,0.507,-0.507
+29,Curaçao,Ivory Coast,Matchday 15,0,0.399,-0.399
+29,Ivory Coast,Curaçao,Matchday 15,2,2.728,-0.728
+30,Ecuador,Germany,Matchday 15,2,1.098,0.902
+30,Germany,Ecuador,Matchday 15,1,1.982,-0.982
+31,Netherlands,Japan,Matchday 4,2,1.778,0.222
+31,Japan,Netherlands,Matchday 4,2,1.307,0.693
+32,Sweden,Tunisia,Matchday 4,5,2.208,2.792
+32,Tunisia,Sweden,Matchday 4,1,1.147,-0.147
+33,Netherlands,Sweden,Matchday 10,5,2.313,2.687
+33,Sweden,Netherlands,Matchday 10,1,1.493,-0.493
+34,Tunisia,Japan,Matchday 10,0,0.649,-0.649
+34,Japan,Tunisia,Matchday 10,4,2.25,1.75
+35,Japan,Sweden,Matchday 15,1,2.153,-1.153
+35,Sweden,Japan,Matchday 15,1,1.626,-0.626
+36,Tunisia,Netherlands,Matchday 15,1,0.387,0.613
+36,Netherlands,Tunisia,Matchday 15,3,3.082,-0.082
+37,Belgium,Egypt,Matchday 5,1,1.887,-0.887
+37,Egypt,Belgium,Matchday 5,1,0.822,0.178
+38,Iran,New Zealand,Matchday 5,2,1.302,0.698
+38,New Zealand,Iran,Matchday 5,2,0.944,1.056
+39,Belgium,Iran,Matchday 11,0,2.524,-2.524
+39,Iran,Belgium,Matchday 11,0,0.235,-0.235
+40,New Zealand,Egypt,Matchday 11,1,0.486,0.514
+40,Egypt,New Zealand,Matchday 11,3,1.972,1.028
+41,Egypt,Iran,Matchday 16,1,1.262,-0.262
+41,Iran,Egypt,Matchday 16,1,0.412,0.588
+42,New Zealand,Belgium,Matchday 16,1,0.319,0.681
+42,Belgium,New Zealand,Matchday 16,5,2.688,2.312
+43,Spain,Cape Verde,Matchday 5,0,2.81,-2.81
+43,Cape Verde,Spain,Matchday 5,0,0.41,-0.41
+44,Saudi Arabia,Uruguay,Matchday 5,1,0.33,0.67
+44,Uruguay,Saudi Arabia,Matchday 5,1,2.504,-1.504
+45,Spain,Saudi Arabia,Matchday 11,4,2.549,1.451
+45,Saudi Arabia,Spain,Matchday 11,0,-0.361,0.361
+46,Uruguay,Cape Verde,Matchday 11,2,2.089,-0.089
+46,Cape Verde,Uruguay,Matchday 11,2,0.743,1.257
+47,Cape Verde,Saudi Arabia,Matchday 16,0,1.454,-1.454
+47,Saudi Arabia,Cape Verde,Matchday 16,0,0.872,-0.872
+48,Uruguay,Spain,Matchday 16,0,0.745,-0.745
+48,Spain,Uruguay,Matchday 16,1,2.305,-1.305
+49,France,Senegal,Matchday 6,3,2.44,0.56
+49,Senegal,France,Matchday 6,1,1.59,-0.59
+50,Iraq,Norway,Matchday 6,1,-0.038,1.038
+50,Norway,Iraq,Matchday 6,4,2.37,1.63
+51,France,Iraq,Matchday 12,3,3.209,-0.209
+51,Iraq,France,Matchday 12,0,-0.47,0.47
+52,Norway,Senegal,Matchday 12,3,1.667,1.333
+52,Senegal,Norway,Matchday 12,2,1.542,0.458
+53,Norway,France,Matchday 16,1,1.275,-0.275
+53,France,Norway,Matchday 16,4,2.094,1.906
+54,Senegal,Iraq,Matchday 16,5,2.484,2.516
+54,Iraq,Senegal,Matchday 16,0,0.135,-0.135
+55,Argentina,Algeria,Matchday 6,3,2.154,0.846
+55,Algeria,Argentina,Matchday 6,0,0.897,-0.897
+56,Austria,Jordan,Matchday 6,3,1.956,1.044
+56,Jordan,Austria,Matchday 6,1,0.058,0.942
+57,Argentina,Austria,Matchday 12,2,1.874,0.126
+57,Austria,Argentina,Matchday 12,0,0.614,-0.614
+58,Jordan,Algeria,Matchday 12,1,0.124,0.876
+58,Algeria,Jordan,Matchday 12,2,2.299,-0.299
+59,Algeria,Austria,Matchday 17,3,1.534,1.466
+59,Austria,Algeria,Matchday 17,3,1.404,1.596
+60,Jordan,Argentina,Matchday 17,1,-0.44,1.44
+60,Argentina,Jordan,Matchday 17,3,2.882,0.118
+61,Portugal,DR Congo,Matchday 7,1,2.578,-1.578
+61,DR Congo,Portugal,Matchday 7,1,0.953,0.047
+62,Uzbekistan,Colombia,Matchday 7,1,0.666,0.334
+62,Colombia,Uzbekistan,Matchday 7,3,1.736,1.264
+63,Portugal,Uzbekistan,Matchday 13,5,2.657,2.343
+63,Uzbekistan,Portugal,Matchday 13,0,0.511,-0.511
+64,Colombia,DR Congo,Matchday 13,1,1.71,-0.71
+64,DR Congo,Colombia,Matchday 13,0,1.332,-1.332
+65,Colombia,Portugal,Matchday 17,0,1.189,-1.189
+65,Portugal,Colombia,Matchday 17,0,1.88,-1.88
+66,DR Congo,Uzbekistan,Matchday 17,3,1.866,1.134
+66,Uzbekistan,DR Congo,Matchday 17,1,0.886,0.114
+67,England,Croatia,Matchday 7,4,2.172,1.828
+67,Croatia,England,Matchday 7,2,1.155,0.845
+68,Ghana,Panama,Matchday 7,1,1.95,-0.95
+68,Panama,Ghana,Matchday 7,0,1.174,-1.174
+69,England,Ghana,Matchday 13,0,3.285,-3.285
+69,Ghana,England,Matchday 13,0,0.635,-0.635
+70,Panama,Croatia,Matchday 13,0,0.68,-0.68
+70,Croatia,Panama,Matchday 13,1,2.434,-1.434
+71,Panama,England,Matchday 17,0,-0.144,0.144
+71,England,Panama,Matchday 17,2,2.874,-0.874
+72,Croatia,Ghana,Matchday 17,2,2.497,-0.497
+72,Ghana,Croatia,Matchday 17,1,1.588,-0.588
+73,South Africa,Canada,Round of 32,0,0.767,-0.767
+73,Canada,South Africa,Round of 32,1,2.479,-1.479
+74,Germany,Paraguay,Round of 32,1,1.861,-0.861
+74,Paraguay,Germany,Round of 32,1,0.902,0.098
+75,Netherlands,Morocco,Round of 32,1,1.672,-0.672
+75,Morocco,Netherlands,Round of 32,1,1.316,-0.316
+76,Brazil,Japan,Round of 32,2,1.733,0.267
+76,Japan,Brazil,Round of 32,1,1.001,-0.001
+77,France,Sweden,Round of 32,3,2.979,0.021
+77,Sweden,France,Round of 32,0,1.3,-1.3
+78,Ivory Coast,Norway,Round of 32,1,1.843,-0.843
+78,Norway,Ivory Coast,Round of 32,2,1.8,0.2
+79,Mexico,Ecuador,Round of 32,2,1.494,0.506
+79,Ecuador,Mexico,Round of 32,0,1.163,-1.163
+80,England,DR Congo,Round of 32,2,2.018,-0.018
+80,DR Congo,England,Round of 32,1,0.56,0.44
+81,USA,Bosnia & Herzegovina,Round of 32,2,2.092,-0.092
+81,Bosnia & Herzegovina,USA,Round of 32,0,1.526,-1.526
+82,Belgium,Senegal,Round of 32,3,1.526,1.474
+82,Senegal,Belgium,Round of 32,2,1.422,0.578
+83,Portugal,Croatia,Round of 32,2,1.923,0.077
+83,Croatia,Portugal,Round of 32,1,1.112,-0.112
+84,Spain,Austria,Round of 32,3,2.191,0.809
+84,Austria,Spain,Round of 32,0,0.587,-0.587
+85,Switzerland,Algeria,Round of 32,2,1.531,0.469
+85,Algeria,Switzerland,Round of 32,0,1.286,-1.286
+86,Argentina,Cape Verde,Round of 32,3,1.709,1.291
+86,Cape Verde,Argentina,Round of 32,2,-0.339,2.339
+87,Colombia,Ghana,Round of 32,1,1.802,-0.802
+87,Ghana,Colombia,Round of 32,0,0.917,-0.917
+88,Australia,Egypt,Round of 32,1,0.547,0.453
+88,Egypt,Australia,Round of 32,1,1.092,-0.092
+89,Paraguay,France,Round of 16,0,0.534,-0.534
+89,France,Paraguay,Round of 16,1,2.497,-1.497
+90,Canada,Morocco,Round of 16,0,1.535,-1.535
+90,Morocco,Canada,Round of 16,3,1.435,1.565
+91,Brazil,Norway,Round of 16,1,1.833,-0.833
+91,Norway,Brazil,Round of 16,2,1.433,0.567
+92,Mexico,England,Round of 16,2,0.918,1.082
+92,England,Mexico,Round of 16,3,1.896,1.104
+93,Portugal,Spain,Round of 16,0,1.265,-1.265
+93,Spain,Portugal,Round of 16,1,1.759,-0.759
+94,USA,Belgium,Round of 16,1,1.741,-0.741
+94,Belgium,USA,Round of 16,4,1.787,2.213
+95,Argentina,Egypt,Round of 16,3,1.56,1.44
+95,Egypt,Argentina,Round of 16,2,0.305,1.695
+96,Switzerland,Colombia,Round of 16,0,1.084,-1.084
+96,Colombia,Switzerland,Round of 16,0,1.239,-1.239
+97,France,Morocco,Quarter-final,2,2.012,-0.012
+97,Morocco,France,Quarter-final,0,0.968,-0.968
+98,Spain,Belgium,Quarter-final,2,1.958,0.042
+98,Belgium,Spain,Quarter-final,1,1.013,-0.013
+99,Norway,England,Quarter-final,1,1.287,-0.287
+99,England,Norway,Quarter-final,2,2.24,-0.24
+100,Argentina,Switzerland,Quarter-final,3,1.529,1.471
+100,Switzerland,Argentina,Quarter-final,1,0.773,0.227
+101,France,Spain,Semi-final,0,1.342,-1.342
+101,Spain,France,Semi-final,2,1.525,0.475
+102,England,Argentina,Semi-final,1,1.57,-0.57
+102,Argentina,England,Semi-final,2,1.182,0.818
+103,France,England,Match for third place,4,1.525,2.475
+103,England,France,Match for third place,6,1.403,4.597
+104,Spain,Argentina,Final,1,1.286,-0.286
+104,Argentina,Spain,Final,0,0.935,-0.935

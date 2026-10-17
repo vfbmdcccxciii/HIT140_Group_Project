@@ -1,0 +1,9 @@
+model,2.1 R²,2.1 RMSE,2.2 R²,2.2 RMSE
+Lasso (alpha CV),0.3706,1.5411,0.2254,1.1965
+ElasticNet (CV),0.3696,1.5427,0.223,1.1984
+Ridge (alpha CV),0.3873,1.5185,0.2182,1.2016
+Poisson GLM (extension),,,0.21,1.2019
+OLS linear regression,0.3794,1.5238,0.2097,1.206
+Random Forest,0.3407,1.5691,0.1784,1.2298
+Gradient Boosting,0.2367,1.6762,0.0639,1.3032
+Baseline (predict mean),-0.0523,2.0129,-0.0418,1.3901

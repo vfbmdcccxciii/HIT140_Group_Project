@@ -1,0 +1,2 @@
+model,n,k,train_r2,adj_r2,f_pvalue,train_rmse,baseline_rmse_predict_mean,oof_r2,oof_rmse,oof_mae,cv_r2,cv_r2_sd,cv_rmse,cv_rmse_sd,cv_mae,cv_mae_sd
+OLS model_2_2,208,8,0.3058,0.2779,0.0,1.1582,1.3901,0.2189,1.2285,0.9613,0.2097,0.1197,1.206,0.1472,0.9546,0.1052
