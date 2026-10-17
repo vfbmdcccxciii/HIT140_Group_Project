@@ -1,0 +1,43 @@
+Test_Match_ID,Team_1,Team_2,Tournament_Stage,Actual_Goal_Difference,Predicted_Goal_Difference,Residual_Error
+1,Brazil,Haiti,Group stage,3,3.1749,-0.1749
+2,Egypt,IR Iran,Group stage,0,-0.0672,0.0672
+3,New Zealand,Belgium,Group stage,-4,-1.249,-2.751
+4,South Africa,South Korea,Group stage,1,-0.412,1.412
+5,England,Ghana,Group stage,0,1.6771,-1.6771
+6,United States,Belgium,Round of 16,-3,-0.6207,-2.3793
+7,Mexico,England,Round of 16,-1,-0.6318,-0.3682
+8,Colombia,Congo DR,Group stage,1,1.8785,-0.8785
+9,Côte d'Ivoire,Ecuador,Group stage,1,0.1476,0.8524
+10,Mexico,South Africa,Group stage,2,1.4389,0.5611
+11,Argentina,Algeria,Group stage,3,2.0871,0.9129
+12,Türkiye,Paraguay,Group stage,-1,0.8263,-1.8263
+13,Canada,Morocco,Round of 16,-3,-0.519,-2.481
+14,Switzerland,Colombia,Round of 16,0,0.2202,-0.2202
+15,France,Sweden,Round of 32,3,1.0295,1.9705
+16,Qatar,Switzerland,Group stage,0,-1.7977,1.7977
+17,Belgium,Senegal,Round of 32,1,1.0395,-0.0395
+18,Germany,Côte d'Ivoire,Group stage,1,1.5316,-0.5316
+19,Spain,Cabo Verde,Group stage,0,3.4223,-3.4223
+20,Canada,Qatar,Group stage,6,0.9726,5.0274
+21,Norway,England,Quarter-finals,-1,-0.147,-0.853
+22,Curaçao,Côte d'Ivoire,Group stage,-2,-0.7999,-1.2001
+23,Ghana,Panama,Group stage,1,0.0575,0.9425
+24,Côte d'Ivoire,Norway,Round of 32,-1,-0.4414,-0.5586
+25,Portugal,Uzbekistan,Group stage,5,2.0798,2.9202
+26,South Africa,Canada,Round of 32,-1,-0.2682,-0.7318
+27,IR Iran,New Zealand,Group stage,0,1.7473,-1.7473
+28,Norway,Senegal,Group stage,1,0.18,0.82
+29,Argentina,Austria,Group stage,2,0.9994,1.0006
+30,Netherlands,Japan,Group stage,0,0.5781,-0.5781
+31,Australia,Egypt,Round of 32,0,0.0657,-0.0657
+32,Sweden,Tunisia,Group stage,4,1.177,2.823
+33,Spain,Argentina,Final,1,0.7318,0.2682
+34,Mexico,Ecuador,Round of 32,2,0.2621,1.7379
+35,United States,Australia,Group stage,2,1.2833,0.7167
+36,England,Congo DR,Round of 32,1,1.7365,-0.7365
+37,Brazil,Morocco,Group stage,0,0.9786,-0.9786
+38,Uruguay,Spain,Group stage,-1,-0.6707,-0.3293
+39,Tunisia,Netherlands,Group stage,-2,-1.0372,-0.9628
+40,New Zealand,Egypt,Group stage,-2,-0.4256,-1.5744
+41,Tunisia,Japan,Group stage,-4,-0.6158,-3.3842
+42,France,Senegal,Group stage,2,1.5096,0.4904
